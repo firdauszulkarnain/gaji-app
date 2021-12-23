@@ -2,6 +2,7 @@
     <div class="container-fluid">
         <div class="d-sm-flex align-items-center justify-content-between ">
             <h1 class="h3 mb-0 text-gray-800"><?= $title ?></h1>
+            <a class="btn btn-success px-5" href="<?= base_url() ?>pegawai/slip_gaji/<?= $detail['id_gaji'] ?>"><i class="fas fa-file-pdf"></i> PDF</a>
         </div>
     </div>
 </section>
@@ -74,5 +75,6 @@
             </div>
         </div>
     </div>
+
 
 </section>
