@@ -102,13 +102,13 @@
                                 </a>
                                 <ul class="nav nav-treeview">
                                     <li class="nav-item">
-                                        <a href="<?= base_url() ?>data/perusahaan" class="nav-link">
+                                        <a href="<?= base_url() ?>data/perusahaan" class="nav-link <?= $this->uri->segment(2) == 'perusahaan'  || $this->uri->segment(2) == 'tambah_perusahaan' || $this->uri->segment(2) == 'update_perusahaan' ? "active" : "" ?>">
                                             <i class="far fa-circle nav-icon"></i>
                                             <p>Data Perusahaan</p>
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="<?= base_url() ?>data/jabatan" class="nav-link">
+                                        <a href="<?= base_url() ?>data/jabatan" class="nav-link  <?= $this->uri->segment(2) == 'jabatan' || $this->uri->segment(2) == 'tambah_jabatan' || $this->uri->segment(2) == 'update_jabatan' ? "active" : "" ?>">
                                             <i class="far fa-circle nav-icon"></i>
                                             <p>Data Jabatan</p>
                                         </a>

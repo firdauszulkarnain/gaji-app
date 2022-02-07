@@ -25,7 +25,7 @@
     </style>
 </head>
 
-<body class="bg-info">
+<body class="bg-light">
     <div class="container">
         <div class="row mt-5 d-flex justify-content-center">
             <div class="login-box mt-5">
@@ -69,7 +69,7 @@
                                     <?= form_error('password') ?>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-dark btn-block mt-4">Masuk</button>
+                            <button type="submit" class="btn btn-info btn-block mt-4">Masuk</button>
                         </form>
                     </div>
                 </div>

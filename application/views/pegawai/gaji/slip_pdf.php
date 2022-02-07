@@ -28,7 +28,7 @@
     #pegawai {
       margin-top: 10px;
       font-family: Arial, Helvetica, sans-serif;
-      width: 50%;
+      width: 70%;
       margin-bottom: 20px;
     }
 
